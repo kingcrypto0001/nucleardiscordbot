@@ -9,8 +9,7 @@ import os
 import datetime
 nowdatetime = datetime.datetime.now()
 
-tokenfile = "./tokenfile"
-TOKEN = tokenfile.read()
+TOKEN = open("tokenfile.txt", "r").read()
 VERSION = "v0.0.1"
 PREFIX = "-"
 OWNERID = ["248242789169496064", "470027393046937620"]
